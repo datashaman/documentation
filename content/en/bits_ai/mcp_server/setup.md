@@ -290,7 +290,7 @@ The MCP Server uses OAuth 2.0 for [authentication][14]. If you cannot go through
     "datadog": {
       "type": "http",
       "url": "https://mcp.datadoghq.com/api/unstable/mcp-server/mcp",
-      "headers": {
+      "env": {
           "DD_API_KEY": "<YOUR_API_KEY>",
           "DD_APPLICATION_KEY": "<YOUR_APPLICATION_KEY>"
       }
